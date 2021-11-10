@@ -4,7 +4,7 @@ This code implements the model discussed in the paper Sound Identification using
 
 Requirements
 ---
-This code is based on the pix2pix code found at:
+This code is based on the Speech emotion recognition code found at:
 https://www.mathworks.com/help/deeplearning/ug/sequential-feature-selection-for-speech-emotion-recognition.html
 
 Spanish video reviews

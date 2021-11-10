@@ -12,7 +12,7 @@ Preprocessing
 
 Augmentations
 ---
-matlab -r create_augmentations(datasetFolder, labelsfile, samplingfreq, outputFolder, outputlabels, numAugmentations)
+create_augmentations(datasetFolder, labelsfile, samplingfreq, outputFolder, outputlabels, numAugmentations)
 - Training audios will be in the folder datasetFolder
 - Labels for training audios will be in labelsfile
 - The sampling frequency samplingfreq of an audio can be determined using [aud, samplingfreq] = audioread('sample.wav')
@@ -22,15 +22,19 @@ matlab -r create_augmentations(datasetFolder, labelsfile, samplingfreq, outputFo
 
 Audio Matching
 ---
-
+match = audio_matching(datasetFolder,samplingfreq, goldAudio)
+- Augmented audios will be in datasetFolder
+- The sampling frequency is an integer samplingfreq
+- A clear audio from original dataset is given as goldAudio
+- The matching error between goldAudio and datasetFolder is returned as a vector match
 
 
 Training
 ---
-matlab -r speech_classifier(datasetFolder, labelsfile, samplingfreq, priornet, outputnet)
+fmea = speech_classifier(datasetFolder, labelsfile, samplingfreq, priornet, outputnet)
 - Training audios will be in datasetFolder
 - Labels for training audios will be in labelsfile
 - The sampling frequency is an integer samplingfreq 
 - Prior speech classifier trained on Affectivespace is give as priornet
 - Model trained will be stored in outputnet
-- F-measure of each class is written to fmeasure.txt
+- F-measure of each class is written to fmeasure.txt and returned by the function

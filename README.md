@@ -9,8 +9,8 @@ https://www.mathworks.com/help/deeplearning/ug/sequential-feature-selection-for-
 
 Preprocessing
 ---
--The training audios are in the form of wav files (see sample_audio folder).
--The training labels must be in the form of 'Speaker ID, Emotion' (see sample_labels.txt)
+- The training audios are in the form of wav files (see sample_audio folder).
+- The training labels must be in the form of 'Speaker ID, Emotion' (see sample_labels.txt)
 
 Augmentations
 ---

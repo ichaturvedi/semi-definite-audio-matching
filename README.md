@@ -22,6 +22,7 @@ Preprocessing
 
 Augmentations
 ---
+We first create a large number of augmentations by tweaking the pitch, amplitude etc :
 create_augmentations(datasetFolder, labelsfile, samplingfreq, outputFolder, outputlabels, numAugmentations)
 - Training audios will be in the folder datasetFolder
 - Labels for training audios will be in labelsfile
@@ -32,6 +33,7 @@ create_augmentations(datasetFolder, labelsfile, samplingfreq, outputFolder, outp
 
 Audio Matching
 ---
+We can select augmentations with error below a threshold compared to a Gold standard audio :
 match = audio_matching(datasetFolder,samplingfreq, goldAudio)
 - Augmented audios will be in datasetFolder
 - The sampling frequency is an integer samplingfreq
@@ -41,6 +43,7 @@ match = audio_matching(datasetFolder,samplingfreq, goldAudio)
 
 Training
 ---
+We use Affective model to initialise and Speaker wise cross-validation of the model :
 fmea = speech_classifier(datasetFolder, labelsfile, samplingfreq, priornet, outputnet)
 - Training audios will be in datasetFolder
 - Labels for training audios will be in labelsfile

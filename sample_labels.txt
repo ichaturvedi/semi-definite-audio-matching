@@ -1,0 +1,11 @@
+Speaker,Emotion
+1,happy
+1,happy
+1,happy
+1,happy
+1,happy
+1,angry
+1,neutral
+1,happy
+2,happy
+2,happy

@@ -23,5 +23,14 @@ matlab -r create_augmentations(datasetFolder, labelsfile, samplingfreq, outputFo
 Audio Matching
 ---
 
+
+
 Training
 ---
+matlab -r speech_classifier(datasetFolder, labelsfile, samplingfreq, priornet, outputnet)
+- Training audios will be in datasetFolder
+- Labels for training audios will be in labelsfile
+- The sampling frequency is an integer samplingfreq 
+- Prior speech classifier trained on Affectivespace is give as priornet
+- Model trained will be stored in outputnet
+- F-measure of each class is written to fmeasure.txt

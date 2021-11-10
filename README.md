@@ -9,6 +9,8 @@ https://www.mathworks.com/help/deeplearning/ug/sequential-feature-selection-for-
 
 Spanish video reviews
 ---
+- We consider the audio signal in Spanish product videos. 
+- Negative sounds often start with 'ab' or 'con' phonetics.
 ![affectivespace](https://user-images.githubusercontent.com/65399216/141210623-89cd06ad-bb20-4c24-9d5d-768d6d9136ed.jpeg)
 ![image](https://user-images.githubusercontent.com/65399216/141210851-2a3db50a-f1b7-4e7b-aedb-30ee9dfe53d6.gif)
 

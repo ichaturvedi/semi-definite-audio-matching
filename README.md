@@ -7,6 +7,10 @@ Requirements
 This code is based on the pix2pix code found at:
 https://www.mathworks.com/help/deeplearning/ug/sequential-feature-selection-for-speech-emotion-recognition.html
 
+Spanish video reviews
+---
+![affectivespace](https://user-images.githubusercontent.com/65399216/141210623-89cd06ad-bb20-4c24-9d5d-768d6d9136ed.jpeg)
+
 Preprocessing
 ---
 - The training audios are in the form of wav files (see sample_audio folder).

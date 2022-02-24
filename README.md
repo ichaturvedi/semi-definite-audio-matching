@@ -1,6 +1,6 @@
 Sound Classification
 ===
-This code implements the model discussed in the paper Sound Identification using Affective. It uses the Affectivespace of emotions to create a prior model for Speech classification into emotions. An audio matching metric is proposed to select the best augmentations for the task. 
+This code implements the model discussed in the paper Sound Identification using Affective space. It uses the Affectivespace of emotions to create a prior model for Speech classification into emotions. An audio matching metric is proposed to select the best augmentations for the task. 
 
 Requirements
 ---

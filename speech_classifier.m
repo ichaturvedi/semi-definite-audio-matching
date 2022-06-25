@@ -47,7 +47,7 @@ parfor l1=1:size(featuresTrain,1)
    gmmAll{l1,1} = gm.mu';
 end
 
-save mouddata.mat featuresTrain;
+save data.mat featuresTrain;
 
 allFeatures = cat(2,featuresTrain{:});
 M = mean(allFeatures,2,'omitnan');

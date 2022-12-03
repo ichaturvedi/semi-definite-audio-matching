@@ -54,3 +54,6 @@ fmea = speech_classifier(datasetFolder, labelsfile, samplingfreq, priornet, outp
 - Prior speech classifier trained on Affectivespace is give as priornet
 - Model trained will be stored in outputnet
 - F-measure of each class is written to fmeasure.txt and returned by the function
+
+
+Paper Link : https://www.mdpi.com/2079-9292/11/23/3943
